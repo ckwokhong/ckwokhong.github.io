@@ -1,6 +1,6 @@
 /**
-* Template Name: iPortfolio - v3.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Template Name: iwork - v3.3.0
+* Template URL: https://bootstrapmade.com/iwork-bootstrap-work-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -472,13 +472,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# work
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.work .work-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.work #work-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -488,7 +488,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.work #work-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -501,23 +501,23 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.work #work-flters li:hover,
+.work #work-flters li.filter-active {
   color: #149ddd;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.work #work-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.work .work-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.work .work-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -530,7 +530,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.work .work-wrap .work-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -542,7 +542,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.work .work-wrap .work-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -551,15 +551,15 @@ section {
   width: 50%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.work .work-wrap .work-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.work .work-wrap .work-links a + a {
   border-left: 1px solid #37b3ed;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.work .work-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -567,29 +567,29 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.work .work-wrap:hover .work-links {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# work Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.work-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.work-details .work-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.work-details .work-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
+.work-details
+  .work-details-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 12px;
@@ -599,19 +599,19 @@ section {
   border: 1px solid #149ddd;
 }
 
-.portfolio-details
-  .portfolio-details-slider
+.work-details
+  .work-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 
-.portfolio-details .portfolio-info {
+.work-details .work-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.work-details .work-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -619,27 +619,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.work-details .work-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.work-details .work-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.work-details .work-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.work-details .work-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.work-details .work-description p {
   padding: 0;
 }
 
